@@ -1,0 +1,165 @@
+/*
+Theme Name: Chatroom
+Author: All Praise Media LLP
+Author URI: http://www.allpraisemedia.com
+*/
+
+/***************************************
+* Primary Menu 
+***************************************/
+#access .menu-header li, div.menu li, #searchform {
+	position: relative;
+}
+
+#access .menu-header, div.menu {
+	margin: 0 auto;
+}
+
+.menu-header a:active, .menu-header a:visited, .menu-header a:link {
+	text-decoration: none;
+}
+
+#access .menu ul li,
+#access .menu-header ul li {
+	float:right;
+	list-style: none outside none;
+	font-size:20px;
+	padding: 0 10px;
+}
+
+#access .menu ul ul,
+#access .menu-header ul ul {
+	min-width: 180px;
+	background-color:#fff;
+	z-index: 99999;
+	top: 25px;
+	left: 0;
+	display: none;
+	position: absolute;
+}
+
+#access .menu ul ul li,
+#access .menu-header ul ul li {
+	position:relative; 
+	line-height:30px;
+	float:left;
+	margin-left:20px;
+}
+
+#access .menu ul ul ul,
+#access .menu-header ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+#access .menu ul ul li:hover > ul,
+#access .menu-header ul li:hover > ul {
+	display: block;
+}
+
+/***************************************
+* Secondary Menu 
+***************************************/
+#bottom_nav {
+    list-style-type:none;
+    margin:0;
+    padding-top:10px;
+    text-align: center;
+	color:#FFF;
+	min-height:30px;
+	text-decoration:none;
+}
+
+#bottom_nav li, #bottom_nav ul, #bottom_nav ul li{
+    display:inline;
+	padding-left:7px;	
+	padding-right:7px;
+	margin-left:-5px;
+}
+
+#bottom_nav li ul {
+	display:none; /* added 7/6/2016 to correct bottmom menu layout */
+}
+/***************************************
+* Tertiary Menu 
+***************************************/
+body .usermenu {
+	border:medium none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	cursor: pointer;
+	display:block;
+	outline: medium none;
+	position: fixed;
+	top:40%;
+	color: #fff;
+	z-index:2;
+	width:130px;
+	min-height:150px;
+	padding:5px 10px 5px 10px;
+	border-radius: 0px 10px 10px 0px;
+	left: 0;
+}
+
+.usermenu a{
+	display:block;
+	color:#fff;	
+}
+
+.usermenu a:hover{
+	text-decoration:none;	
+}
+
+.usermenu ul{
+	margin-left:-30px;
+}
+
+.usermenu ul li{
+	list-style-type:none;
+	/*padding:5px 2px 5px 0px;*/
+}
+
+.usermenu ul ul{
+	position:absolute;
+	left:-9999px;
+}
+
+.usermenu ul li li{
+	border-radius: 0px 10px 10px 0px;
+	padding:5px 2px 5px 0px;
+	white-space:nowrap;
+}
+
+.usermenu li:hover ul{
+	left:144px;
+	margin-top:-24px; 
+}
+
+.usermenu li:hover ul li:hover{
+	background:#F3F3F3;
+}
+
+#container table ul li{
+	font-size:20px;
+	line-height:25px;
+	list-style-type:none;
+}
+
+#container table ul li li{
+	font-size:13px;
+	line-height:20px;
+	list-style-type:square;
+	margin-top:-2px;
+}
+
+/*******************************************
+Responsive Design additions -JCT 1/8/2016
+********************************************/
+
+#access .menu-header, div.menu {
+	width: 100%;
+}
+
+/*******************************************
+end
+********************************************/
