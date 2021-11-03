@@ -1,5 +1,5 @@
 === Chatroom ===
-Contributors: AllPraiseMedia
+Contributors: Team A (Kayla Wilkes, Kenjeffrey Harmon, Cleveland Yancovitz, Zatavia Allen)
 Requires at least: WordPress 3.0
 Tested up to: WordPress 4.3
 Stable tag: 4.3
@@ -9,6 +9,11 @@ Tags: one-column, two-columns, right-sidebar, fixed-layout, custom-colors, custo
 
 == Description ==
 This theme is a very simplistic design that can be used as a blog or for business and includes a Contact Us form. Users have the option to use the colors they choose for the background, menu bar, and sidebar. When using as a blog, Posts have share buttons for Facebook, Twitter, and Google+. 
+
+Creating and implementing a ChatRoom is important because it can set up the individual student’s path towards success at JSU. A ChatRoom website can help students network and reach out to each other in times of need. While most students will benefit from JSU ChatRoom, freshman and transfer students would benefit greatly from this idea.
+
+The files for this repository contains files that details the design for our website that includes the following: hompage, register, login, contact page, security, and search form.
+ 
 
 == Installation ==
 
@@ -110,6 +115,3 @@ Source: http://www.allpraisemedia.com
 = 1.0 =
 * Released: October 22, 2015
 Initial release.
-
-
-
