@@ -7,7 +7,7 @@
 			
 	echo '<div id="right">';
 	echo '<h2>';
-	_e( 'We Are Sorry!', 'chatroom' ); 
+	_e( 'We Are So Sorry!', 'chatroom' ); 
 	echo '</h2>';
 	if ($searchbar == 'yes') {
 		get_search_form();
@@ -16,7 +16,7 @@
 	_e( 'Error: 404', 'chatroom');
 	echo '</h3>';
     echo '<p>';
-	_e( 'Sorry, the page you requested may have been remove or deleted, 
+	_e( 'Sorry, the page you requested may have been removed or deleted, 
 		you may navigate the below links to go back to the home page or 
 		you may contact us.', 'chatroom');
 	echo '</p>';
